@@ -1,0 +1,116 @@
+body, html {
+  margin: 0;
+  padding: 0;
+}
+body {
+  text-align: center;
+}
+h1, h2, h3 {
+  font-family: 'Poiret One';
+
+}
+p {
+  font-family: 'Oxygen';
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+/* Object Styles */
+
+#header_sec {
+  background-image: url("image_assets/background1.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  padding-top:49vh;
+  padding-bottom: 43.75vh;
+}
+#header_sec-title_box {
+  color:white;
+  background-color: #2A2A2A;
+  width:15%;
+  padding-top: .009%;
+  padding-bottom: .001%;
+  margin-left:42vw;
+  font-size: 15px;
+}
+#scrolldown {
+  background-image: url("image_assets/background1.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  width:100%;
+}
+#scolldown_button {
+  height:50px;
+  width:50px;
+  margin-left: 2.5vw;
+}
+#content_sec {
+  text-align: left;
+  font-size:25px;
+  color:white;
+  background-color: #2A2A2A;
+  padding-top:2.5%;
+  padding-bottom:2.5%;
+}
+#accent1 {
+  width:100px;
+  float:left;
+  margin-left:6%;
+  margin-bottom: 4%;
+  object-position:10%, 0;
+}
+#content_sec-title {
+  margin-left:7%;
+  float:top;
+}
+#break {
+  background-image: url("image_assets/background2.jpg");
+  height: 350px;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+#portfolio_sec {
+  text-align: left;
+  font-size:25px;
+  color:black;
+  background-color:white;
+  padding-top:2.5%;
+  padding-bottom:2.5%;
+}
+
+#portfolio_sec-title {
+  margin-left:7%;
+  color:#2A2A2A;
+  float:top;
+}
+#portfolio_buttons {
+  text-align: center;
+  margin-left:50%;
+  background-color:transparent;
+  padding-top:.75%;
+  padding-bottom:.75%;
+  padding-left:1.5%;
+  padding-right:1.5%;
+  font-size: 20px;
+  color:#2A2A2A;
+  border:none;
+  border: solid 3px #2A2A2A;
+  cursor:pointer;
+  transition:0.3s;
+}
+#portfolio_buttons:hover {
+  background-color:#2A2A2A;
+  color:white;
+}
+#footer {
+  text-align: left;
+  font-size:25px;
+  color:white;
+  background-color: #2A2A2A;
+  padding-top:2.5%;
+  padding-bottom:2.5%;
+}
+#credit {
+  margin-left:20%;
+}
