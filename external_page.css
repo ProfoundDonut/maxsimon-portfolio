@@ -86,6 +86,25 @@ p {
   background-color:white;
   color:#2A2A2A;
 }
+#footer_buttons {
+  text-align: center;
+  margin-left:50%;
+  background-color:white;
+  padding-top:.75%;
+  padding-bottom:.75%;
+  padding-left:1.5%;
+  padding-right:1.5%;
+  font-size: 20px;
+  color:#2A2A2A;
+  border:none;
+  border: solid 3px white;
+  cursor:pointer;
+  transition:0.3s;
+}
+#footer_buttons:hover {
+  background-color:#2A2A2A;
+  color:white;
+}
 #footer {
   text-align: left;
   font-size:25px;
