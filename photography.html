@@ -9,13 +9,22 @@
       <link rel="shortcut icon" href="image_assets/favicon.ico">
       <script src="jQuery.js"></script>
       <script>
-  $(document).ready(function(){
-      $('#loading_wrap').remove().delay();
-  });
+      setTimeout(function(){
+        $("#loading_wrap").fadeOut();
+      }, 2000);
   </script>
   </head>
   <body>
-      <div id='loading_wrap' style='position:fixed; padding-top:50vh; padding-bottom:50vh; padding-left: 50vw; padding-right: 50vw; overflow:hidden; top:0; left:0; background-color:white;'>Loading, please wait.</div>
+    <div id='loading_wrap' style='position:fixed; padding-top:50vh; padding-bottom:50vh; padding-left: 50vw; padding-right: 50vw; overflow:hidden; top:0; left:0; background-color:#2A2A2A;'>
+      <div id='loading_wrap'>
+        <div class="sk-folding-cube">
+          <div class="sk-cube1 sk-cube"></div>
+          <div class="sk-cube2 sk-cube"></div>
+          <div class="sk-cube4 sk-cube"></div>
+          <div class="sk-cube3 sk-cube"></div>
+        </div>
+      </div>
+    </div>
     <div id="header">
       <div id="header_sec-title_box">
         <h1>Photography</h1>
@@ -24,7 +33,7 @@
   </div>
   <div id="content">
     <h2 id="content_sec-title">Intro</h2>
-    <p>Ever since I was young, was I have  had a love for writingtten arts.  I love all types of writing  -- including, like poetry, and creative writing, and even expository writing.  Writing is something I find incredibly enjoyable because it gives me an outlet to express my feelings and to has always coame naturally for me , which makes it incredibly enjoyable.  I decided to include it in my portfolio, because I wanted to showcase the best work that I have done with written arts.  Language Arts is my best class, and I have done a lot of writing in LA, that includes multiple different types of writing.  Enjoy.</p>
+    <p>I have enjoyed photography ever since i was little.  Mostly, because it's so different than any other art form.  Instead of being able to customize every bit of a painting, or any other traditional art piece for that matter, it allows you to take something, and leave it up to yourself to make it look good.  I believe anything can be an amazing photo, and from what I have scene, that’s true.  It requires skill of not knowing what to create, but seeing something, and knowing that it is something that's beautiful.  Photography allows you to only be limited by your own knowledge of how to take a photo, something everybody has, and can be unleashed.</p>
     <h2 id="content_sec-title">Work</h2>
     <div class="row">
   <div class="column">
@@ -49,7 +58,7 @@
     <br>
     <h2 id="content_sec-title">Contact Me</h2>
     <a href="mailto:maxwell.simon.business@gmail.com"><p id="link" >Email Me</p></a>
-    <a href="https://github.com/ProfoundDonut/maxsimon-portfolio/issues/new" target="_blank"><p>Submit Feedback</p></a>
+    <a href="https://github.com/ProfoundDonut/maxsimon-portfolio/issues" target="_blank"><p>Submit Feedback</p></a>
     <a href="https://github.com/ProfoundDonut/maxsimon-portfolio" target="_blank"><button id="footer_buttons">View Code</button></a>
   </div>
     <scirpt src="jQuery.js"></script>

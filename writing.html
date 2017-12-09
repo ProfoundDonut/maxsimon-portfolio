@@ -8,13 +8,22 @@
       <link rel="shortcut icon" href="image_assets/favicon.ico">
       <script src="jQuery.js"></script>
       <script>
-  $(document).ready(function(){
-      $('#loading_wrap').remove().delay(1500);
-  });
+      setTimeout(function(){
+        $("#loading_wrap").fadeOut();
+      }, 2000);
   </script>
   </head>
   <body>
-      <div id='loading_wrap' style='position:fixed; padding-top:50vh; padding-bottom:50vh; padding-left: 50vw; padding-right: 50vw; overflow:hidden; top:0; left:0; background-color:white;'>Loading, please wait.</div>
+    <div id='loading_wrap' style='position:fixed; padding-top:50vh; padding-bottom:50vh; padding-left: 50vw; padding-right: 50vw; overflow:hidden; top:0; left:0; background-color:#2A2A2A;'>
+      <div id='loading_wrap'>
+        <div class="sk-folding-cube">
+          <div class="sk-cube1 sk-cube"></div>
+          <div class="sk-cube2 sk-cube"></div>
+          <div class="sk-cube4 sk-cube"></div>
+          <div class="sk-cube3 sk-cube"></div>
+        </div>
+      </div>
+    </div>
     <div id="header">
       <div id="header_sec-title_box">
         <h1>Writing</h1>
@@ -22,9 +31,10 @@
     </div>
   </div>
   <div id="content">
-    <h2 id="content_sec-title">Intro</h2>
-    <p>Ever since I was young, was I have  had a love for writingtten arts.  I love all types of writing  -- including, like poetry, and creative writing, and even expository writing.  Writing is something I find incredibly enjoyable because it gives me an outlet to express my feelings and to has always coame naturally for me , which makes it incredibly enjoyable.  I decided to include it in my portfolio, because I wanted to showcase the best work that I have done with written arts.  Language Arts is my best class, and I have done a lot of writing in LA, that includes multiple different types of writing.  Enjoy.</p>
-    <h2 id="content_sec-title">Work</h2>
+    <h1 id="content_sec-title">Intro</h1>
+    <p>
+    Ever since I was young, I have had a love for writing.  I love all types of writing, including poetry, creative writing, and even expository writing.  Writing is something I find incredibly enjoyable because it gives me an outlet to express my creativity and to explore ways of subtly changing the meaning of a statement through the use of words.  Sometimes I challenge myself to rework something I’ve written to make it shorter.  When I do this, it forces me to think about the word choices I make.   I have included it in my portfolio because I wanted to showcase a few of my favorite examples of my written work.  Adults always think of me as a “techy” person because I still have a love for very technological things, but Language Arts is my favorite class,  Enjoy.</p>
+    <h1 id="content_sec-title">Work</h1>
     <a href="https://docs.google.com/document/d/1ceEJYvBorfhUiapZbI9fwNl-GJ6JgVaoRtFQ4NPvVC4/edit"vtarget="_blank"><p id="link">Essay on Nazi T4 project</p></a>
     <a href="https://docs.google.com/document/d/1zmT_Pu7KLBoKysZr9J0mwO-vEQoazatWtk7NaoOcQ9I/edit" target="_blank"><p id="link">Essay On The Metamorphosis</p></a>
     <a href="https://docs.google.com/document/d/1sXqNXQVAGCc5nVtxotkEjUVfSe7-WwavHGFgKb2UdrY/edit" target="_blank"><p id="link">Narrative on JD Salinger</p></a>
@@ -34,7 +44,7 @@
     <br>
     <h2 id="content_sec-title">Contact Me</h2>
     <a href="mailto:maxwell.simon.business@gmail.com"><p id="link" >Email Me</p></a>
-    <a href="https://github.com/ProfoundDonut/maxsimon-portfolio/issues/new" target="_blank"><p>Submit Feedback</p></a>
+    <a href="https://github.com/ProfoundDonut/maxsimon-portfolio/issues" target="_blank"><p>Submit Feedback</p></a>
     <a href="https://github.com/ProfoundDonut/maxsimon-portfolio" target="_blank"><button id="footer_buttons">View Code</button></a>
   </div>
     <scirpt src="jQuery.js"></script>
