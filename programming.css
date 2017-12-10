@@ -6,11 +6,11 @@ body {
   text-align: center;
 }
 h1, h2, h3 {
-  font-family: 'Poiret One';
+  font-family: 'Quicksand';
 
 }
 p {
-  font-family: 'Oxygen';
+  font-family: 'Raleway';
   margin-left: 15%;
   margin-right: 15%;
 }
@@ -116,6 +116,26 @@ p {
 #link {
   text-decoration: underline;
   cursor: pointer;
+}
+#main_img1 {
+  width:750px;
+  height: 500px;
+  background-color: grey;
+  border-radius: 10px;
+  margin-left: 20vw;
+  background-image: url(image_assets/asset3.png);
+  background-position: center;
+  background-size: cover;
+}
+#main_img2 {
+  width:750px;
+  height: 500px;
+  background-color: grey;
+  border-radius: 10px;
+  margin-left: 20vw;
+  background-image: url(image_assets/asset4.png);
+  background-position: center;
+  background-size: cover;
 }
 a {
   color:inherit;

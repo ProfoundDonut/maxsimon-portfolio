@@ -6,16 +6,20 @@ body {
   text-align: center;
 }
 h1, h2, h3 {
-  font-family: 'Poiret One';
+  font-family: 'Quicksand';
 
 }
 p {
-  font-family: 'Oxygen';
+  font-family: 'Raleway';
   margin-left: 15%;
   margin-right: 15%;
 }
 a {
   color: inherit;
+}
+::selection {
+  background-color: #2A2A2A;
+  color:white;
 }
 
 /* Object Styles */
@@ -30,11 +34,11 @@ a {
 #header_sec-title_box {
   color:white;
   background-color: #2A2A2A;
-  width:15%;
-  padding-top: .009%;
-  padding-bottom: .001%;
+  width:16%;
+  padding-top: 4px;
+  padding-bottom: 4px;
   margin-left:42vw;
-  font-size: 15px;
+  font-size: 17px;
 }
 #scrolldown {
   background-image: url("image_assets/background1.jpg");

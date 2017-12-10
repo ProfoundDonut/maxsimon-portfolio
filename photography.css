@@ -6,11 +6,11 @@ body {
   text-align: center;
 }
 h1, h2, h3 {
-  font-family: 'Poiret One';
+  font-family: 'Quicksand';
 
 }
 p {
-  font-family: 'Oxygen';
+  font-family: 'Raleway';
   margin-left: 15%;
   margin-right: 15%;
 }
@@ -120,6 +120,7 @@ p {
 a {
   color:inherit;
   text-decoration: none;
+}
   .sk-folding-cube {
     margin: 20px auto;
     width: 40px;
@@ -127,8 +128,7 @@ a {
     position: relative;
     -webkit-transform: rotateZ(45deg);
             transform: rotateZ(45deg);
-  }
-
+}
   .sk-folding-cube .sk-cube {
     float: left;
     width: 50%;
